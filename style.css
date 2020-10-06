@@ -19,7 +19,7 @@ h1 { font-size: 20px; }
 
 .active {background: #6CD369; border-bottom: 2px solid white;}
 
-.gambar{display: grid; grid-template-columns: 1fr 1fr 1fr; margin-right: 20px; padding: 25px; padding-right: 220px; }
+.gambar{display: grid; grid-template-columns: 1fr 1fr 1fr; margin-right: 40px; padding: 25px; padding-right: 220px; }
 
 .gambar .foto img{width: 300px;}
 
