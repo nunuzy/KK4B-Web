@@ -1,0 +1,58 @@
+body {margin: 0; font-family: sans-serif;}
+h1 { font-size: 20px; }
+
+.logo h1{margin: 20px; column-span: 4px; font-size: 28px;}
+
+.header {border:1px solid #16A111; color: white; background:  #16A111; height: 70px;  }
+
+.logo {float: left; }
+
+.navbar {float: right;}
+
+.navbar ul{list-style: none; padding-top: 10px; }
+
+.navbar ul li{display: inline; margin: 10px;}
+
+.navbar ul li a{margin-right: 10px; text-decoration: none; color: white;}
+
+.navbar ul li a:hover{background-color: #6CD369; border-bottom: 2px solid white; text-align: center;}
+
+.active {background: #6CD369; border-bottom: 2px solid white;}
+
+.gambar{display: grid; grid-template-columns: 1fr 1fr 1fr; margin-right: 20px; padding: 25px; padding-right: 220px; }
+
+.gambar .foto img{width: 300px;}
+
+.foto{text-align: center;}
+
+.foto a{padding: 10px; color: white; background: #16A111; text-decoration: none; border-radius: 5%; cursor: pointer; }
+
+.foto{border:1px solid #ebebeb; margin: 25px; background-color: #ebebeb;}
+
+.pict, .about{padding-bottom: 300px;}
+
+.about, .contact{padding-bottom: 300px;}
+
+.about p{color: #666; text-align: center; justify-content: center; word-spacing: 2px; line-height: 22px;}
+
+.about h1{color: #16A111; text-align: center;}
+
+.label{padding-bottom: 6px; background-color: #16A111; color: #fff; height: 43px;}
+
+.container p{text-align: center; margin: 30px; margin-top: 10px; padding: 5px; height: 35px;}
+
+.container h2{ font-size: 16px; text-align: left; margin: 23px; margin-top: 12px; padding: 10px;}
+
+.contact{text-align: center; background-color: #f9f9f9; color: #16A111; }
+
+.box:after{content: ''; display: block; clear: both;}
+
+.box .col-4{width:22%; padding: 20px; float: left;}
+
+.col-4 h4{text-align:center;}
+
+.col-4 p{color: #666;}
+
+.footer{margin-bottom: 10px; text-align: center; color: white; background:#333; height: 70px; padding-top: 20px;}
+
+.footer a{text-decoration: none; color: white;}
